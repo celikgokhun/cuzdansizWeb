@@ -16,11 +16,6 @@ import org.jetbrains.compose.web.css.px
 
 @Composable
 fun MainSection() {
-    Box(
-        modifier = Modifier
-            .maxWidth(SECTION_WIDTH.px),
-        contentAlignment = Alignment.TopCenter
-    ){
         MainBackground()
     }
     /*
@@ -32,7 +27,6 @@ fun MainSection() {
         LittleBackground()
     }
      */
-}
 
 @Composable
 fun MainBackground() {
