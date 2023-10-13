@@ -16,17 +16,15 @@ import org.jetbrains.compose.web.css.px
 
 @Composable
 fun MainSection() {
-        MainBackground()
-    }
-    /*
     Box(
         modifier = Modifier
-            .maxWidth(SECTION_NARROW.px),
+            .maxWidth(SECTION_WIDTH.px),
         contentAlignment = Alignment.TopCenter
     ){
-        LittleBackground()
+        //LittleBackground()
+        MainBackground()
     }
-     */
+}
 
 @Composable
 fun MainBackground() {
